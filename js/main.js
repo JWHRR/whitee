@@ -18,15 +18,15 @@
     en: {
       "nav-experience":"Experience","nav-menu":"Menu","nav-reviews":"Guest Voices",
       "nav-events":"Events","nav-discover":"Discover","nav-host":"Host an Event",
-      "hero-eyebrow":"La Marsa · Tunis, Tunisia",
+      "hero-eyebrow":"Av. 14 Janvier, Sidi Bou Said",
       "hero-t1":"Coffee, brunch &","hero-em":"blue","hero-t2":" Mediterranean days.",
-      "hero-lede":"Sunlit mornings, all-day brunch and a blue-and-white terrace by the sea — where good coffee meets a generous Mediterranean table. This is WHITE.",
+      "hero-lede":"Sunlit mornings, all-day brunch and a blue-and-white terrace in Sidi Bou Said — where good coffee meets a generous Mediterranean table. This is WHITE.",
       "btn-menu-hero":"See the Menu","btn-discover-hero":"Discover the House",
       "hero-scroll":"Scroll",
       "manifesto-kicker":"The House",
       "manifesto-title":`<span class="reveal-word">A</span> <span class="reveal-word">coffee.</span> <span class="reveal-word">A</span> <span class="reveal-word">table.</span> <span class="reveal-word manifesto__accent">A</span> <span class="reveal-word manifesto__accent">bright</span> <span class="reveal-word manifesto__accent">blue</span> <span class="reveal-word manifesto__accent">day.</span>`,
-      "manifesto-body":"WHITE is a bright Mediterranean coffee house and restaurant — a place for slow mornings, long brunches and unhurried evenings. Clean blue-and-white rooms, generous plates, and the sea air of La Marsa in every corner.",
-      "map-title":"Find us by the sea","map-sub":"WHITE · La Marsa, Tunis Governorate, Tunisia","map-btn":"Open in Maps",
+      "manifesto-body":"WHITE is a bright Mediterranean coffee house and restaurant — a place for slow mornings, long brunches and unhurried evenings. Clean blue-and-white rooms, generous plates, and the sea air of Sidi Bou Said in every corner.",
+      "map-title":"Find us in Sidi Bou Said","map-sub":"WHITE · Av. 14 Janvier, Sidi Bou Said","map-btn":"Open in Maps",
       "exp-kicker":"The Experience","exp-title":"Four ways to live<br/>a day at WHITE",
       "exp1-t":"The Morning Café","exp1-p":"Freshly pulled coffee, warm bread and a sunlit start to the day.",
       "exp2-t":"All-Day Brunch","exp2-p":"Eggs benedict, waffles, bowls and fresh juices — served all day long.",
@@ -50,29 +50,102 @@
       "host-kicker":"Host an Event at WHITE","host-title":"Book a table<br/>or your event",
       "host-p":"Birthdays, baby showers, team lunches, workshops or a private terrace evening — tell us your idea and we'll make it happen.",
       "form-name":"Your name","form-phone":"Phone / WhatsApp","form-type":"Occasion","form-details":"Tell us more","form-submit":"Send on WhatsApp ↗",
-      "discover-kicker":"Around the Bay","discover-title":"Your guide to<br/>La Marsa & beyond",
+      "discover-kicker":"Around the Bay","discover-title":"Your guide to<br/>Sidi Bou Said & beyond",
       "discover-intro":"More than a table — a little map of the most beautiful corners of the Tunis coast, from the WHITE team.",
       "tab-spots":"Photo Spots","tab-gems":"Hidden Gems","tab-nearby":"Nearby",
-      "atmos-kicker":"La Marsa","atmos-title":"Blue & white,<br/>sunlit rooms,<br/>sea air.",
+      "atmos-kicker":"Sidi Bou Said","atmos-title":"Blue & white,<br/>sunlit rooms,<br/>coastal air.",
       "atmos-body":"Everything at WHITE answers to the Mediterranean — the clean blue and white, the bright open rooms, the jasmine and salt in the evening air. A place made to slow down in, from the first coffee to the last plate.",
       "atmos-li1":"All-day brunch, served generously",
       "atmos-li2":"Mediterranean kitchen, Tunisian soul",
       "atmos-li3":"A terrace built around golden hour",
-      "closing-kicker":"La Marsa · Tunis, Tunisia","closing-title":"Your table is <em>waiting</em>.",
-      "footer-visit":"Visit","footer-explore":"Explore","footer-connect":"Connect"
+      "closing-kicker":"Av. 14 Janvier, Sidi Bou Said","closing-title":"Your table is <em>waiting</em>.",
+      "closing-kicker":"Av. 14 Janvier, Sidi Bou Said","closing-title":"Your table is <em>waiting</em>.",
+      "footer-visit":"Visit","footer-explore":"Explore","footer-connect":"Connect",
+      "footer-hours":"8 AM – 1 AM everyday",
+      "menu-cat-drinks":"Café & Boissons",
+      "menu-cat-drinks-p":"Espresso · Cappuccino · Latte · Fresh juices · Smoothies · Milkshakes — full drinks menu coming soon.",
+      "menu-cat-brunch":"Brunch",
+      "menu-cat-brunch-p":"Eggs benedict · French toast · Pancakes · Açaí bowls · Avocado toast — full brunch menu coming soon.",
+      "menu-cat-bowls":"Bowls & Salades",
+      "menu-cat-sides":"Sides & Apéro",
+      "menu-cat-pasta":"Pâtes",
+      "menu-cat-plats":"Plats",
+      "menu-cat-desserts":"Desserts",
+      "menu-cat-desserts-p":"Tiramisu · Fondant chocolat · Cheesecake · Crème brûlée · Seasonal fruits — full dessert menu coming soon.",
+      "mq-coffee": "Coffee",
+      "mq-brunch": "Brunch",
+      "mq-bowls": "Bowls",
+      "mq-pasta": "Fresh Pasta",
+      "mq-sunset": "Sunset Terrace",
+      "story-kicker": "Our Story",
+      "story-title": "The Story of WHITE",
+      "story-p": "WHITE was born from a simple dream: to capture the unhurried magic of a Mediterranean morning and serve it on a plate. After years experiencing café cultures around the world, our founder returned to the shores of Sidi Bou Said to build a sanctuary. We obsess over every detail — from the precise temperature of our espresso to our sun-ripened local ingredients — so you can simply enjoy the moment. Pull up a chair and be a part of our story.",
+      "story-map": "Find Us in Sidi Bou Said",
+      "rev1-date": "2 months ago",
+      "rev1-p": "“The bowls are excellent and generous, the truffle pasta a delight. Beautiful blue and white setting, perfect for lunch with friends.”",
+      "rev2-date": "Local Guide · 4 months ago",
+      "rev3-date": "3 months ago",
+      "rev4-date": "Local Guide · 1 year ago",
+      "rev4-p": "“Very good value for money, generous portions and well-presented dishes. The sea bream fillet with guacamole was perfect.”",
+      "rev5-date": "6 months ago",
+      "rev6-date": "Local Guide · 8 months ago",
+      "rev6-p": "“A beautiful discovery in Sidi Bou Said. Fresh, bright decor, and a varied menu. Perfect for a family brunch on the weekend.”",
+      "rev-cuisine": "Food",
+      "rev-service": "Service",
+      "rev-ambiance": "Atmosphere",
+      "m1-t": "Vegetarian Bowl",
+      "m1-p": "Bulgur base, avocado, spinach, cucumber, kefta.",
+      "m2-t": "Mexican Bowl",
+      "m2-p": "Rice, guacamole, peppers, carrot, corn, red beans, grilled chicken, cheese sauce.",
+      "m3-t": "Thai Bowl",
+      "m3-p": "Rice, carrot, peppers, sirloin, red cabbage, broccoli, peanut sauce.",
+      "m4-t": "Salade César",
+      "m4-p": "Mixed leaves, tomato, grilled chicken, croutons, grana, Caesar sauce, grilled beef bacon.",
+      "m5-t": "Salade Poulet Avocat",
+      "m5-p": "Chicken, avocado, baby mozzarella, raspberry vinaigrette.",
+      "m6-t": "Salade Chèvre Chaud Panée",
+      "m6-p": "Rocket, breaded warm goat cheese, raspberry vinaigrette, pita chips.",
+      "m7-t": "Salade Burrata Pêche",
+      "m7-p": "Rocket, grilled peach, cherry tomato, burrata, pesto, walnuts.",
+      "m8-t": "Spaghetti Bolognese",
+      "m8-p": "Classic authentic Spaghetti Bolognese with rich, deep red, meaty ragu sauce and parmesan.",
+      "m9-t": "Penne Poulet Panné",
+      "m9-p": "Breaded chicken, spinach, pesto, blue cheese.",
+      "m10-t": "Penne Saumon Sauce Rosé",
+      "m10-p": "Fresh salmon, creamy rosé sauce.",
+      "m11-t": "Spaghetti Faux Filet, Truffes",
+      "m11-p": "Sirloin, rich truffle sauce, grana padano.",
+      "m12-t": "Spaghetti Fruits de Mer",
+      "m12-p": "Fresh seafood mix, garlic, olive oil, parsley.",
+      "m13-t": "Émincé de Poulet",
+      "m13-p": "Baby potatoes, rocket, cherry tomato, rice, creamy chicken &amp; mushrooms.",
+      "m14-t": "Émincé de Bœuf",
+      "m14-p": "Baby potatoes, rocket, cherry tomato, rice, creamy sirloin &amp; mushrooms.",
+      "m15-t": "Suprême de Poulet Grillé",
+      "m15-p": "Baby potatoes, rocket, cherry tomato, rice, grilled chicken, melted mozzarella.",
+      "m16-t": "Plat Poulet Pané",
+      "m16-p": "Baby potatoes, rocket, cherry tomato, rice, panko chicken, melted mozzarella.",
+      "m17-t": "Brochette de Bœuf",
+      "m17-p": "Baby potatoes, rocket, cherry tomato, rice, beef skewer, chimichurri.",
+      "m18-t": "Brochette de Poulet",
+      "m18-p": "Baby potatoes, rocket, cherry tomato, rice, peanut chicken skewer, peanut-butter yoghurt sauce.",
+      "m19-t": "Filet de Daurade",
+      "m19-p": "Sea bream fillet, guacamole, pita chips.",
+      "m20-t": "Filet de Bœuf",
+      "m20-p": "Beef fillet — choose grilled, truffle or pepper sauce."
     },
     fr: {
       "nav-experience":"Expérience","nav-menu":"Menu","nav-reviews":"Avis Clients",
       "nav-events":"Événements","nav-discover":"Découvrir","nav-host":"Réserver",
-      "hero-eyebrow":"La Marsa · Tunis, Tunisie",
+      "hero-eyebrow":"Av. 14 Janvier, Sidi Bou Said",
       "hero-t1":"Café, brunch &","hero-em":"jours","hero-t2":" bleus de Méditerranée.",
-      "hero-lede":"Matins ensoleillés, brunch toute la journée et une terrasse bleu et blanc au bord de la mer — où le bon café rencontre une table méditerranéenne généreuse. Voici WHITE.",
+      "hero-lede":"Matins ensoleillés, brunch toute la journée et une terrasse bleu et blanc à Sidi Bou Said — où le bon café rencontre une table méditerranéenne généreuse. Voici WHITE.",
       "btn-menu-hero":"Voir le Menu","btn-discover-hero":"Découvrir la Maison",
       "hero-scroll":"Défiler",
       "manifesto-kicker":"La Maison",
       "manifesto-title":`<span class="reveal-word">Un</span> <span class="reveal-word">café.</span> <span class="reveal-word">Une</span> <span class="reveal-word">table.</span> <span class="reveal-word manifesto__accent">Une</span> <span class="reveal-word manifesto__accent">belle</span> <span class="reveal-word manifesto__accent">journée</span> <span class="reveal-word manifesto__accent">bleue.</span>`,
-      "manifesto-body":"WHITE est un café-restaurant méditerranéen lumineux — un lieu pour les matins doux, les longs brunchs et les soirées sans hâte. Des salles bleu et blanc, des assiettes généreuses, et l'air marin de La Marsa partout.",
-      "map-title":"Retrouvez-nous au bord de la mer","map-sub":"WHITE · La Marsa, Gouvernorat de Tunis, Tunisie","map-btn":"Ouvrir dans Maps",
+      "manifesto-body":"WHITE est un café-restaurant méditerranéen lumineux — un lieu pour les matins doux, les longs brunchs et les soirées sans hâte. Des salles bleu et blanc, des assiettes généreuses, et l'air marin de Sidi Bou Said partout.",
+      "map-title":"Retrouvez-nous à Sidi Bou Said","map-sub":"WHITE · Av. 14 Janvier, Sidi Bou Said","map-btn":"Ouvrir dans Maps",
       "exp-kicker":"L'Expérience","exp-title":"Quatre façons de vivre<br/>une journée à WHITE",
       "exp1-t":"Le Café du Matin","exp1-p":"Café fraîchement préparé, pain chaud et un réveil ensoleillé.",
       "exp2-t":"Brunch Toute la Journée","exp2-p":"Œufs bénédicte, gaufres, bowls et jus frais — servis toute la journée.",
@@ -96,62 +169,94 @@
       "host-kicker":"Organisez votre événement à WHITE","host-title":"Réservez une table<br/>ou votre événement",
       "host-p":"Anniversaires, baby showers, déjeuners d'équipe, ateliers ou une soirée privée en terrasse — dites-nous votre idée et on s'occupe du reste.",
       "form-name":"Votre nom","form-phone":"Téléphone / WhatsApp","form-type":"Occasion","form-details":"Dites-nous-en plus","form-submit":"Envoyer sur WhatsApp ↗",
-      "discover-kicker":"Autour de la baie","discover-title":"Votre guide de<br/>La Marsa & au-delà",
+      "discover-kicker":"Autour de la baie","discover-title":"Votre guide de<br/>Sidi Bou Said & au-delà",
       "discover-intro":"Plus qu'une table — une petite carte des plus beaux coins de la côte de Tunis, par l'équipe WHITE.",
       "tab-spots":"Spots Photo","tab-gems":"Trésors Cachés","tab-nearby":"À Proximité",
-      "atmos-kicker":"La Marsa","atmos-title":"Bleu & blanc,<br/>salles lumineuses,<br/>air marin.",
+      "atmos-kicker":"Sidi Bou Said","atmos-title":"Bleu & blanc,<br/>salles lumineuses,<br/>air côtier.",
       "atmos-body":"Tout à WHITE répond à la Méditerranée — le bleu et blanc épuré, les salles ouvertes et lumineuses, le jasmin et le sel dans l'air du soir. Un lieu fait pour ralentir, du premier café à la dernière assiette.",
       "atmos-li1":"Brunch toute la journée, servi généreusement",
       "atmos-li2":"Cuisine méditerranéenne, âme tunisienne",
       "atmos-li3":"Une terrasse pensée pour l'heure dorée",
-      "closing-kicker":"La Marsa · Tunis, Tunisie","closing-title":"Votre table vous <em>attend</em>.",
-      "footer-visit":"Visiter","footer-explore":"Explorer","footer-connect":"Contact"
-    },
-    ar: {
-      "nav-experience":"تجربة","nav-menu":"القائمة","nav-reviews":"آراء الضيوف",
-      "nav-events":"الفعاليات","nav-discover":"اكتشف","nav-host":"احجز",
-      "hero-eyebrow":"المرسى · تونس",
-      "hero-t1":"قهوة، برانش و","hero-em":"أيام","hero-t2":" متوسطية زرقاء.",
-      "hero-lede":"صباحات مشمسة، برانش طوال اليوم وشرفة بالأزرق والأبيض على البحر — حيث تلتقي القهوة الجيدة بمائدة متوسطية كريمة. هذا هو WHITE.",
-      "btn-menu-hero":"شاهد القائمة","btn-discover-hero":"اكتشف المكان",
-      "hero-scroll":"انزل",
-      "manifesto-kicker":"المكان",
-      "manifesto-title":`<span class="reveal-word">قهوة.</span> <span class="reveal-word">مائدة.</span> <span class="reveal-word manifesto__accent">يوم</span> <span class="reveal-word manifesto__accent">أزرق</span> <span class="reveal-word manifesto__accent">مشرق.</span>`,
-      "manifesto-body":"WHITE هو مقهى ومطعم متوسطي مشرق — مكان للصباحات الهادئة، البرانش الطويل والأمسيات المتأنّية. غرف بالأزرق والأبيض، أطباق كريمة، ونسيم بحر المرسى في كل ركن.",
-      "map-title":"تجدوننا على البحر","map-sub":"WHITE · المرسى، ولاية تونس","map-btn":"افتح في الخرائط",
-      "exp-kicker":"التجربة","exp-title":"أربع طرق لعيش<br/>يوم في WHITE",
-      "exp1-t":"مقهى الصباح","exp1-p":"قهوة طازجة، خبز دافئ وبداية يوم مشمسة.",
-      "exp2-t":"برانش طوال اليوم","exp2-p":"بيض بنديكت، وافل، بولات وعصائر طازجة — طوال اليوم.",
-      "exp3-t":"المائدة","exp3-p":"برغر، باستا طازجة، سلطات وأطباق مشوية من مطبخ متوسطي.",
-      "exp4-t":"جلسات الغروب","exp4-p":"موهيتو طازج، مشروبات مميزة والشرفة عند الغروب.",
-      "menu-kicker":"المطبخ","menu-title":"قائمة<br/>WHITE",
-      "menu-intro":"بولات، سلطات، باستا طازجة وأطباق متوسطية — طازجة وكريمة. الأسعار بالدينار التونسي.",
-      "menu-feature-t":"طازج كل يوم",
-      "menu-feature-p":"مطبخ متوسطي بقلب تونسي — بولات، سلطات، باستا ومشاوي، إضافة إلى برانش طوال اليوم وحلويات منزلية.",
-      "menu-feature-btn":"احجز طاولة",
-      "menu-note":"القائمة والأسعار قد تتغيّر موسمياً · اسأل فريقنا عن أطباق اليوم.",
-      "reviews-title":"ماذا يقول<br/>ضيوفنا",
-      "feed-kicker":"الفيد","feed-follow":"تابِع @white.tn",
-      "events-kicker":"فعاليات WHITE","events-title":"اختر<br/>تجربتك",
-      "events-intro":"من برانش نهاية الأسبوع إلى جلسات الغروب — كل لقاء في WHITE طاولة تستحق الحجز.",
-      "events-upcoming":"قادم","events-recent":"فعاليات سابقة","events-regular":"كل أسبوع في WHITE",
-      "events-empty":"لا فعاليات قادمة حالياً — تواريخ جديدة قيد التحضير. ترقّبوا ☀️",
-      "ev1-when":"كل جمعة","ev1-t":"جلسات الغروب","ev1-p":"مشروبات منعشة، منسّق موسيقى مقيم والشرفة عند الغروب.",
-      "ev2-when":"عطلة نهاية الأسبوع","ev2-t":"البرانش الكبير","ev2-p":"مائدة متوسطية كريمة — بيض، وافل، بولات، معجنات وعصائر طازجة.",
-      "ev3-when":"الخميس","ev3-t":"ليلة الباستا والنبيذ","ev3-p":"باستا طازجة، كأس لطيف وأجواء مسائية هادئة.",
-      "host-kicker":"نظّم فعاليتك في WHITE","host-title":"احجز طاولة<br/>أو فعاليتك",
-      "host-p":"أعياد ميلاد، حفلات، غداء فريق العمل، ورشات أو أمسية خاصة في الشرفة — أخبرنا بفكرتك وسنحقّقها.",
-      "form-name":"اسمك","form-phone":"الهاتف / واتساب","form-type":"المناسبة","form-details":"أخبرنا أكثر","form-submit":"إرسال عبر واتساب ↗",
-      "discover-kicker":"حول الخليج","discover-title":"دليلك إلى<br/>المرسى وما حولها",
-      "discover-intro":"أكثر من طاولة — خريطة صغيرة لأجمل زوايا ساحل تونس، من فريق WHITE.",
-      "tab-spots":"أماكن التصوير","tab-gems":"كنوز خفية","tab-nearby":"قريب",
-      "atmos-kicker":"المرسى","atmos-title":"أزرق وأبيض،<br/>غرف مشرقة،<br/>نسيم بحر.",
-      "atmos-body":"كل شيء في WHITE يعكس المتوسط — الأزرق والأبيض النظيف، الغرف المفتوحة المضيئة، والياسمين والملح في هواء المساء. مكان صُنع للتمهّل، من أول قهوة إلى آخر طبق.",
-      "atmos-li1":"برانش طوال اليوم، يُقدَّم بكرم",
-      "atmos-li2":"مطبخ متوسطي بروح تونسية",
-      "atmos-li3":"شرفة مصمّمة حول ساعة الغروب",
-      "closing-kicker":"المرسى · تونس","closing-title":"طاولتكم <em>بانتظاركم</em>.",
-      "footer-visit":"زورونا","footer-explore":"استكشف","footer-connect":"تواصل"
+      "closing-kicker":"Av. 14 Janvier, Sidi Bou Said","closing-title":"Votre table vous <em>attend</em>.",
+      "closing-kicker":"Av. 14 Janvier, Sidi Bou Said","closing-title":"Votre table vous <em>attend</em>.",
+      "footer-visit":"Visiter","footer-explore":"Explorer","footer-connect":"Contact",
+      "footer-hours":"Tous les jours · 8h00 – 1h00",
+      "menu-cat-drinks":"Café & Boissons",
+      "menu-cat-drinks-p":"Espresso · Cappuccino · Latte · Jus frais · Smoothies · Milkshakes — menu complet de boissons à venir.",
+      "menu-cat-brunch":"Brunch",
+      "menu-cat-brunch-p":"Œufs bénédicte · Pain perdu · Pancakes · Açaí bowls · Avocado toast — menu complet brunch à venir.",
+      "menu-cat-bowls":"Bowls & Salades",
+      "menu-cat-sides":"Sides & Apéro",
+      "menu-cat-pasta":"Pâtes",
+      "menu-cat-plats":"Plats",
+      "menu-cat-desserts":"Desserts",
+      "menu-cat-desserts-p":"Tiramisu · Fondant au chocolat · Cheesecake · Crème brûlée · Fruits de saison — menu complet desserts à venir.",
+      "mq-coffee": "Café",
+      "mq-brunch": "Brunch",
+      "mq-bowls": "Bowls",
+      "mq-pasta": "Pâtes Fraîches",
+      "mq-sunset": "Terrasse au Couchant",
+      "story-kicker": "Notre Histoire",
+      "story-title": "L'Histoire de WHITE",
+      "story-p": "WHITE est né d'un rêve simple : capturer la magie paisible d'une matinée méditerranéenne et la servir dans une assiette. Après des années à découvrir la culture des cafés à travers le monde, notre fondateur est revenu sur les côtes de Sidi Bou Said pour bâtir un sanctuaire. Nous veillons à chaque détail — de la température précise de notre espresso à nos ingrédients locaux gorgés de soleil — pour que vous puissiez simplement profiter de l'instant. Prenez place et faites partie de notre histoire.",
+      "story-map": "Retrouvez-nous à Sidi Bou Said",
+      "rev1-date": "il y a 2 mois",
+      "rev1-p": "« Les bowls sont excellents et copieux, les pâtes aux truffes un délice. Cadre bleu et blanc magnifique, parfait pour déjeuner entre amis. »",
+      "rev2-date": "Local Guide · il y a 4 mois",
+      "rev3-date": "il y a 3 mois",
+      "rev4-date": "Local Guide · il y a 1 an",
+      "rev4-p": "« Très bon rapport qualité-prix, portions généreuses et plats bien présentés. Le filet de daurade au guacamole était parfait. »",
+      "rev5-date": "il y a 6 mois",
+      "rev6-date": "Local Guide · il y a 8 mois",
+      "rev6-p": "« Une belle découverte à Sidi Bou Said. Décor frais, lumineux, et une carte variée. Parfait pour un brunch en famille le week-end. »",
+      "rev-cuisine": "Cuisine",
+      "rev-service": "Service",
+      "rev-ambiance": "Ambiance",
+      "m1-t": "Vegetarian Bowl",
+      "m2-t": "Mexican Bowl",
+      "m3-t": "Thai Bowl",
+      "m4-t": "Salade César",
+      "m5-t": "Salade Poulet Avocat",
+      "m6-t": "Salade Chèvre Chaud Panée",
+      "m7-t": "Salade Burrata Pêche",
+      "m8-t": "Spaghetti Bolognese",
+      "m9-t": "Penne Poulet Panné",
+      "m10-t": "Penne Saumon Sauce Rosé",
+      "m11-t": "Spaghetti Faux Filet, Truffes",
+      "m12-t": "Spaghetti Fruits de Mer",
+      "m13-t": "Émincé de Poulet",
+      "m14-t": "Émincé de Bœuf",
+      "m15-t": "Suprême de Poulet Grillé",
+      "m16-t": "Plat Poulet Pané",
+      "m17-t": "Brochette de Bœuf",
+      "m18-t": "Brochette de Poulet",
+      "m19-t": "Filet de Daurade",
+      "m20-t": "Filet de Bœuf",
+      "m1-p": "Base de boulgour, avocat, épinards, concombre, kefta.",
+      "m2-p": "Riz, guacamole, poivrons, carotte, maïs, haricots rouges, poulet grillé, sauce fromagère.",
+      "m3-p": "Riz, carotte, poivrons, faux-filet, chou rouge, brocoli, sauce cacahuète.",
+      "m4-p": "Mélange de salades, tomate, poulet grillé, croûtons, grana, sauce César, bacon de bœuf grillé.",
+      "m5-p": "Poulet, avocat, billes de mozzarella, vinaigrette à la framboise.",
+      "m6-p": "Mélange de salades, tomates cerises, burrata, basilic, fruits rouges, crème balsamique.",
+      "m7-p": "Mélange de salades, tomates cerises, toast de chèvre chaud, noix, figues, vinaigrette au miel.",
+      "m8-p": "Poulet, cheddar, guacamole, chips, crème fraîche.",
+      "m9-p": "Bœuf, cheddar, guacamole, chips, crème fraîche.",
+      "m10-p": "Servis avec sauce marinara.",
+      "m11-p": "Servi avec sauce chili douce.",
+      "m12-p": "Crevettes croustillantes, sauce dynamite épicée.",
+      "m13-p": "Frites, sauce cheddar, viande hachée.",
+      "m14-p": "Penne, sauce pesto, poulet, parmesan, tomates cerises.",
+      "m15-p": "Spaghetti, crevettes, calamars, moules, bisque, tomates cerises.",
+      "m16-p": "Saumon frais, sauce rosée onctueuse.",
+      "m17-p": "Ail, huile d'olive, flocons de piment, persil.",
+      "m18-p": "Sauce crémeuse aux champignons, poulet, parmesan.",
+      "m19-p": "Viande hachée mijotée, sauce tomate, parmesan.",
+      "m20-p": "Sauce tomate épicée, ail, persil.",
+      "m21-p": "Pommes grenailles, roquette, tomates cerises, riz, poulet et champignons à la crème.",
+      "m22-p": "Pommes grenailles, roquette, tomates cerises, riz, faux-filet et champignons à la crème.",
+      "m23-p": "Escalope de poulet croustillante, frites, petite salade.",
+      "m24-p": "Blanc de poulet grillé, riz, légumes rôtis.",
+      "m25-p": "Filet de daurade, guacamole, chips de pita."
     }
   };
 
@@ -250,8 +355,17 @@
     entries.forEach(en => {
       if (en.isIntersecting) { en.target.classList.add("is-in"); io.unobserve(en.target); }
     });
-  }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+  }, { threshold: 0.2, rootMargin: "0px 0px -8% 0px" });
   $$(".reveal").forEach(el => io.observe(el));
+  $$(".reveal-zoom").forEach(el => io.observe(el));
+
+  /* ── Menu accordion toggle ── */
+  $$(".menu__group-title").forEach(title => {
+    title.addEventListener("click", () => {
+      const group = title.closest(".menu__group");
+      group.classList.toggle("is-open");
+    });
+  });
 
   /* word-by-word manifesto */
   const wio = new IntersectionObserver((entries) => {
@@ -274,8 +388,9 @@
     $$("[data-parallax]").forEach(box => {
       const r = box.getBoundingClientRect();
       if (r.bottom < 0 || r.top > innerHeight) return;
+      const speed = parseFloat(box.dataset.speed) || -0.5;
       const img = box.querySelector("img") || box;
-      const shift = (r.top - innerHeight / 2) * -0.06;
+      const shift = (r.top - innerHeight / 2) * speed;
       img.style.transform = `translateY(${shift}px) scale(1.12)`;
     });
     ticking = false;
@@ -417,9 +532,23 @@
       e.preventDefault();
       const f = new FormData(form);
       const status = form.querySelector(".leadform__status");
-      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(buildMsg(f))}`, "_blank");
-      status.textContent = "Sent! Our team will get back to you shortly ✨";
-      form.reset();
+      const btn = form.querySelector("button[type='submit']");
+      
+      if (btn) btn.classList.add("is-loading");
+      
+      setTimeout(() => {
+        if (btn) {
+          btn.classList.remove("is-loading");
+          btn.classList.add("is-success");
+        }
+        window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(buildMsg(f))}`, "_blank");
+        status.textContent = "Sent! Our team will get back to you shortly ✨";
+        form.reset();
+        
+        setTimeout(() => {
+          if (btn) btn.classList.remove("is-success");
+        }, 2500);
+      }, 800);
     });
   };
 
@@ -501,13 +630,13 @@ Details: ${f.get("details") || "—"}`);
       cta: { label: "Plan an event", act: () => window.open(baseWa("Hello WHITE ☀️ I'd like to enquire about hosting an event 🎉"), "_blank") } },
 
     { k: ["coffee","cafe","café","latte","cappuccino"],
-      a: "Freshly pulled coffee from 08:00 ☕ Espresso, cappuccino, lattes and homemade milkshakes — the perfect start to a day in La Marsa." },
+      a: "Freshly pulled coffee from 08:00 ☕ Espresso, cappuccino, lattes and homemade milkshakes — the perfect start to a day in Sidi Bou Said." },
 
     { k: ["dessert","sweet","milkshake","cake","gâteau","french toast"],
       a: "Sweet tooth? 🍫 Homemade milkshakes, French toast with berries, and a rotating selection of desserts. Ask our team about today's." },
 
     { k: ["where","location","address","get there","direction","find","adresse","comment","map"],
-      a: "We're in <b>La Marsa</b>, on the Tunis coast — minutes from the beach 📍",
+      a: "We're in <b>Sidi Bou Said</b>, on the Tunis coast — moments from the sea 📍",
       cta: { label: "Open in Maps", act: () => window.open("https://www.google.com/maps/search/?api=1&query=La+Marsa+Tunis","_blank") } },
 
     { k: ["parking","car","voiture"],

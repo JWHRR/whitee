@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>WHITE — Coffee House &amp; Restaurant · La Marsa, Tunis</title>
-<meta name="description" content="WHITE — Bright Mediterranean coffee house & restaurant in La Marsa, Tunis. All-day brunch, bowls, fresh pasta, salads and golden-hour terraces by the sea." />
+<title>WHITE — Coffee House &amp; Restaurant · Sidi Bou Said, Tunis</title>
+<meta name="description" content="WHITE — Bright Mediterranean coffee house & restaurant in Sidi Bou Said, Tunis. All-day brunch, bowls, fresh pasta, salads and golden-hour terraces in Sidi Bou Said." />
 
 <!-- Open Graph / Social -->
-<meta property="og:title" content="WHITE — Coffee House & Restaurant · La Marsa" />
-<meta property="og:description" content="Sunlit brunches, fresh Mediterranean plates and a blue-and-white terrace by the sea. This is WHITE." />
+<meta property="og:title" content="WHITE — Coffee House & Restaurant · Sidi Bou Said" />
+<meta property="og:description" content="Sunlit brunches, fresh Mediterranean plates and a blue-and-white terrace in Sidi Bou Said. This is WHITE." />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="img/hero.png" />
 <meta name="theme-color" content="#2f57c4" />
@@ -57,10 +57,8 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 
     <div class="nav__lang" role="group" aria-label="Language">
       <button class="nav__lang-btn is-active" data-lang="en">EN</button>
-      <span aria-hidden="true">|</span>
+      <span>·</span>
       <button class="nav__lang-btn" data-lang="fr">FR</button>
-      <span aria-hidden="true">|</span>
-      <button class="nav__lang-btn" data-lang="ar">AR</button>
     </div>
 
     <button class="nav__burger" id="burger" aria-label="Open menu">
@@ -78,7 +76,7 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
     <a href="#host" data-i18n="nav-host">Host an Event</a>
   </nav>
   <div class="mobilemenu__meta">
-    <p>La Marsa · Tunis, Tunisia</p>
+    <p>Av. 14 Janvier, Sidi Bou Said</p>
     <p>Open daily · 08:00 — late</p>
   </div>
 </div>
@@ -87,23 +85,31 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 
 <!-- ░░░░░░░░░░░░░░ HERO ░░░░░░░░░░░░░░ -->
 <section class="hero" id="hero">
-  <div class="hero__media" data-parallax>
-    <img src="img/hero.png" alt="WHITE coffee house at dusk — warm terrace lights and neon sign" loading="eager" decoding="sync" />
+  <div class="hero__media" data-parallax data-speed="-0.5">
+    <img src="img/new-hero.jpg" alt="WHITE coffee house exterior with blue parasols" loading="eager" decoding="sync" />
     <div class="hero__scrim"></div>
   </div>
+  
+  <svg class="hero__strings" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" data-parallax data-speed="-0.1">
+    <path class="string-light string-1" d="M -10,30 Q 50,-10 110,40" />
+    <path class="string-light string-2" d="M -10,70 Q 50,20 110,90" />
+    <path class="string-light string-3" d="M -10,110 Q 50,70 110,120" />
+    <path class="string-light string-4" d="M 20,-10 Q 70,50 120,60" />
+    <path class="string-light string-5" d="M 60,-10 Q 100,60 130,80" />
+  </svg>
 
   <div class="hero__content">
-    <p class="hero__eyebrow reveal" data-i18n="hero-eyebrow">La Marsa · Tunis, Tunisia</p>
-    <h1 class="hero__title">
-      <span class="reveal-line"><span data-i18n="hero-t1">Coffee, brunch &amp;</span></span>
-      <span class="reveal-line"><span><em data-i18n="hero-em">blue</em><span data-i18n="hero-t2"> Mediterranean days.</span></span></span>
+    <p class="hero__eyebrow" data-i18n="hero-eyebrow">Av. 14 Janvier, Sidi Bou Said</p>
+    <h1 class="hero__title hero-headline">
+      <span data-i18n="hero-t1">Coffee, brunch &amp;</span><br>
+      <span><em data-i18n="hero-em">blue</em><span data-i18n="hero-t2"> Mediterranean days.</span></span>
     </h1>
-    <p class="hero__lede reveal" data-i18n="hero-lede">
-      Sunlit mornings, all-day brunch and a blue-and-white terrace by the sea —
+    <p class="hero__lede hero-subheading" data-i18n="hero-lede">
+      Sunlit mornings, all-day brunch and a blue-and-white terrace in Sidi Bou Said —
       where good coffee meets a generous Mediterranean table. This is WHITE.
     </p>
     <div class="hero__actions reveal">
-      <a href="#menu" class="btn btn--solid" data-cursor="hover" data-i18n="btn-menu-hero">See the Menu</a>
+      <a href="#menu" class="btn btn--hero" data-cursor="hover" data-i18n="btn-menu-hero">See the Menu</a>
     </div>
   </div>
 
@@ -114,48 +120,44 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 
   <div class="hero__marquee" aria-hidden="true">
     <div class="marquee__track">
-      <span>Coffee</span><span>·</span><span>Brunch</span><span>·</span><span>Bowls</span><span>·</span>
-      <span>Fresh Pasta</span><span>·</span><span>Sunset Terrace</span><span>·</span>
-      <span>Coffee</span><span>·</span><span>Brunch</span><span>·</span><span>Bowls</span><span>·</span>
-      <span>Fresh Pasta</span><span>·</span><span>Sunset Terrace</span><span>·</span>
+      <div class="marquee__group">
+        <span data-i18n="mq-coffee">Coffee</span><span>·</span><span data-i18n="mq-brunch">Brunch</span><span>·</span><span data-i18n="mq-bowls">Bowls</span><span>·</span>
+        <span data-i18n="mq-pasta">Fresh Pasta</span><span>·</span><span data-i18n="mq-sunset">Sunset Terrace</span><span>·</span>
+      </div>
+      <div class="marquee__group" aria-hidden="true">
+        <span data-i18n="mq-coffee">Coffee</span><span>·</span><span data-i18n="mq-brunch">Brunch</span><span>·</span><span data-i18n="mq-bowls">Bowls</span><span>·</span>
+        <span data-i18n="mq-pasta">Fresh Pasta</span><span>·</span><span data-i18n="mq-sunset">Sunset Terrace</span><span>·</span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ░░░░░░░░░░░░░░ MANIFESTO ░░░░░░░░░░░░░░ -->
-<section class="manifesto section">
-  <div class="manifesto__inner">
-    <p class="kicker reveal" data-i18n="manifesto-kicker">The House</p>
-    <h2 class="manifesto__text" data-i18n-html="manifesto-title">
-      <span class="reveal-word">A</span> <span class="reveal-word">coffee.</span>
-      <span class="reveal-word">A</span> <span class="reveal-word">table.</span>
-      <span class="reveal-word manifesto__accent">A</span>
-      <span class="reveal-word manifesto__accent">bright</span>
-      <span class="reveal-word manifesto__accent">blue</span>
-      <span class="reveal-word manifesto__accent">day.</span>
-    </h2>
-    <p class="manifesto__body reveal" data-i18n="manifesto-body">
-      WHITE is a bright Mediterranean coffee house and restaurant — a place for slow
-      mornings, long brunches and unhurried evenings. Clean blue-and-white rooms,
-      generous plates, and the sea air of La Marsa in every corner.
-    </p>
+<!-- ░░░░░░░░░░░░░░ OUR STORY ░░░░░░░░░░░░░░ -->
+<section class="brand-story section" id="story">
+  <div class="story-content">
 
-    <div class="discover__map reveal">
-      <div class="discover__map-text">
-        <h3 data-i18n="map-title">Find us by the sea</h3>
-        <p data-i18n="map-sub">WHITE · La Marsa, Tunis Governorate, Tunisia</p>
-        <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/search/?api=1&query=White+Coffee+House+La+Marsa+Tunis" target="_blank" rel="noopener" data-cursor="hover" data-i18n="map-btn">Open in Maps</a>
-      </div>
-      <div class="discover__map-visual">
-        <iframe
-          class="discover__map-embed"
-          src="https://www.google.com/maps?q=La%20Marsa%20Tunis&output=embed"
-          title="WHITE on Google Maps — La Marsa, Tunis"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen></iframe>
+    <p class="kicker reveal" data-i18n="story-kicker">Our Story</p>
+    <div class="accent-line reveal" style="margin: 0 auto 1.4rem;"></div>
+    <h2 class="reveal" data-i18n="story-title">The Story of WHITE</h2>
+
+    <!-- SINGLE STORY SECTION -->
+    <div class="story-section reveal">
+      <p data-i18n="story-p" style="font-size: 1.25rem; line-height: 1.8; max-width: 650px; margin: 0 auto 2.5rem; text-align: center;">WHITE was born from a simple dream: to capture the unhurried magic of a Mediterranean morning and serve it on a plate. After years experiencing café cultures around the world, our founder returned to the shores of Sidi Bou Said to build a sanctuary. We obsess over every detail — from the precise temperature of our espresso to our sun-ripened local ingredients — so you can simply enjoy the moment. Pull up a chair and be a part of our story.</p>
+      <div class="story-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80" alt="A sunlit café terrace" loading="lazy" />
       </div>
     </div>
+
+    <!-- MAP (PRESERVED) -->
+    <div class="story-section reveal" style="text-align:left">
+      <h3 data-i18n="story-map">Find Us in Sidi Bou Said</h3>
+      <p data-i18n="map-sub">WHITE · Av. 14 Janvier, Sidi Bou Said</p>
+      <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/search/?api=1&query=White+Coffee+House+Sidi+Bou+Said+Tunis" target="_blank" rel="noopener" data-cursor="hover" data-i18n="map-btn" style="margin-bottom:1.5rem;display:inline-block">Open in Maps</a>
+      <div style="border-radius:12px;overflow:hidden;box-shadow:0 12px 32px rgba(29,58,143,.12);">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d907.8634620572884!2d10.340636505274466!3d36.87250711015033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2b499887908b7%3A0xa35e0a6a52339bc3!2sWhite%20Sidi%20Bou%20Sa%C3%AFd!5e1!3m2!1sfr!2stn!4v1780845903965!5m2!1sfr!2stn" style="width:100%;height:350px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -163,136 +165,349 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 <section class="menu section" id="menu">
   <div class="section__head">
     <p class="kicker reveal" data-i18n="menu-kicker">The Kitchen</p>
+    <div class="accent-line reveal"></div>
     <h2 class="section__title reveal" data-i18n-html="menu-title">The WHITE<br/>menu</h2>
     <p class="section__intro reveal" data-i18n="menu-intro">Bowls, salads, fresh pasta and Mediterranean plates — made fresh, served generously. Prices in Tunisian Dinar.</p>
   </div>
 
-  <div class="menu__groups reveal">
+  <div class="menu__groups">
 
-      <!-- BOWLS -->
-      <div class="menu__group">
-        <h3 class="menu__group-title script">Bowls</h3>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Vegetarian Bowl</span><span class="menu__dots"></span><span class="menu__price">22</span></div>
-          <p class="menu__desc">Bulgur base, avocado, spinach, cucumber, kefta.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Mexican Bowl</span><span class="menu__dots"></span><span class="menu__price">26</span></div>
-          <p class="menu__desc">Rice, guacamole, peppers, carrot, corn, red beans, grilled chicken, cheese sauce.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Thai Bowl</span><span class="menu__dots"></span><span class="menu__price">28</span></div>
-          <p class="menu__desc">Rice, carrot, peppers, sirloin, red cabbage, broccoli, peanut sauce.</p>
+      <!-- ☕ CAFÉ & BOISSONS -->
+      <div class="menu__group is-open">
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-drinks">Café &amp; Boissons</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card" style="grid-column:1/-1;text-align:center;padding:2.5rem 1rem;opacity:.6">
+            <p style="font-style:italic;color:var(--muted)" data-i18n="menu-cat-drinks-p">Espresso · Cappuccino · Latte · Fresh juices · Smoothies · Milkshakes — full drinks menu coming soon.</p>
+          </div>
         </div>
       </div>
 
-      <!-- LES SALADES -->
+      <!-- 🥞 BRUNCH -->
       <div class="menu__group">
-        <h3 class="menu__group-title script">Salades</h3>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Salade César</span><span class="menu__dots"></span><span class="menu__price">18</span></div>
-          <p class="menu__desc">Mixed leaves, tomato, grilled chicken, croutons, grana, Caesar sauce, grilled beef bacon.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Salade Poulet Avocat</span><span class="menu__dots"></span><span class="menu__price">25</span></div>
-          <p class="menu__desc">Chicken, avocado, baby mozzarella, raspberry vinaigrette.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Salade Chèvre Chaud Panée</span><span class="menu__dots"></span><span class="menu__price">26</span></div>
-          <p class="menu__desc">Rocket, breaded warm goat cheese, raspberry vinaigrette, pita chips.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Salade Burrata Pêche</span><span class="menu__dots"></span><span class="menu__price">32</span></div>
-          <p class="menu__desc">Rocket, grilled peach, cherry tomato, burrata, pesto, walnuts.</p>
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-brunch">Brunch</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card" style="grid-column:1/-1;text-align:center;padding:2.5rem 1rem;opacity:.6">
+            <p style="font-style:italic;color:var(--muted)" data-i18n="menu-cat-brunch-p">Eggs benedict · French toast · Pancakes · Açaí bowls · Avocado toast — full brunch menu coming soon.</p>
+          </div>
         </div>
       </div>
 
-      <!-- SIDES -->
+      <!-- 🥗 BOWLS & SALADES -->
       <div class="menu__group">
-        <h3 class="menu__group-title script">Sides</h3>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Potato Cheese Balls <small>3 pcs</small></span><span class="menu__dots"></span><span class="menu__price">12</span></div>
-          <p class="menu__desc">Tartare sauce.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Mozza Sticks <small>3 pcs</small></span><span class="menu__dots"></span><span class="menu__price">13</span></div>
-          <p class="menu__desc">Basil tomato sauce.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Chicken Nuggets <small>6 pcs</small></span><span class="menu__dots"></span><span class="menu__price">18</span></div>
-          <p class="menu__desc">Spicy sauce, ketchup.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Spicy Chicken Wings <small>6 pcs</small></span><span class="menu__dots"></span><span class="menu__price">22</span></div>
-          <p class="menu__desc">Spicy sauce, ketchup.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Frites</span><span class="menu__dots"></span><span class="menu__price">4.5</span></div>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Potatoes</span><span class="menu__dots"></span><span class="menu__price">6</span></div>
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-bowls">Bowls &amp; Salades</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80" alt="Vegetarian Bowl" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m1-t">Vegetarian Bowl</h3>
+              <p class="menu-description" data-i18n="m1-p">Bulgur base, avocado, spinach, cucumber, kefta.</p>
+              <div class="menu-meta">
+                <span class="menu-price">22 DT</span>
+                <span class="dietary-tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=800&q=80" alt="Mexican Bowl" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m2-t">Mexican Bowl</h3>
+              <p class="menu-description" data-i18n="m2-p">Rice, guacamole, peppers, carrot, corn, red beans, grilled chicken, cheese sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price">26 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="img/thai_bowl.png" alt="Thai Bowl" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m3-t">Thai Bowl</h3>
+              <p class="menu-description" data-i18n="m3-p">Rice, carrot, peppers, sirloin, red cabbage, broccoli, peanut sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price">28 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=800&q=80" alt="Salade César" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m4-t">Salade César</h3>
+              <p class="menu-description" data-i18n="m4-p">Mixed leaves, tomato, grilled chicken, croutons, grana, Caesar sauce, grilled beef bacon.</p>
+              <div class="menu-meta">
+                <span class="menu-price">18 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?w=800&q=80" alt="Salade Poulet Avocat" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m5-t">Salade Poulet Avocat</h3>
+              <p class="menu-description" data-i18n="m5-p">Chicken, avocado, baby mozzarella, raspberry vinaigrette.</p>
+              <div class="menu-meta">
+                <span class="menu-price">25 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=800&q=80" alt="Salade Chèvre Chaud Panée" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m6-t">Salade Chèvre Chaud Panée</h3>
+              <p class="menu-description" data-i18n="m6-p">Rocket, breaded warm goat cheese, raspberry vinaigrette, pita chips.</p>
+              <div class="menu-meta">
+                <span class="menu-price">26 DT</span>
+                <span class="dietary-tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="img/salade_burrata.png" alt="Salade Burrata Pêche" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m7-t">Salade Burrata Pêche</h3>
+              <p class="menu-description" data-i18n="m7-p">Rocket, grilled peach, cherry tomato, burrata, pesto, walnuts.</p>
+              <div class="menu-meta">
+                <span class="menu-price">32 DT</span>
+                <span class="dietary-tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- PÂTES -->
+      <!-- 🧀 SIDES & APÉRO -->
       <div class="menu__group">
-        <h3 class="menu__group-title script">Pâtes</h3>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Spaghetti Bolognese</span><span class="menu__dots"></span><span class="menu__price">20</span></div>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Penne Puttanesca</span><span class="menu__dots"></span><span class="menu__price">22</span></div>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Penne Poulet Panné</span><span class="menu__dots"></span><span class="menu__price">28</span></div>
-          <p class="menu__desc">Breaded chicken, spinach, pesto, blue cheese.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Penne Saumon Sauce Rosé</span><span class="menu__dots"></span><span class="menu__price">28</span></div>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Spaghetti Faux Filet, Truffes</span><span class="menu__dots"></span><span class="menu__price">38</span></div>
-          <p class="menu__desc">Sirloin, truffle sauce.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Spaghetti Fruits de Mer</span><span class="menu__dots"></span><span class="menu__price">39</span></div>
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-sides">Sides &amp; Apéro</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="img/mozza_sticks.png" alt="Mozza Sticks" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title">Mozza Sticks <small style="color:var(--muted);font-weight:400;font-size:0.8rem">3 pcs</small></h3>
+              <p class="menu-description">Perfectly fried sticks with gooey, melting cheese. Basil tomato sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price">13 DT</span>
+                <span class="dietary-tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1585325701165-351af55e80ab?w=800&q=80" alt="Potato Cheese Balls" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title">Potato Cheese Balls <small style="color:var(--muted);font-weight:400;font-size:0.8rem">3 pcs</small></h3>
+              <p class="menu-description">Tartare sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price">12 DT</span>
+                <span class="dietary-tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=800&q=80" alt="Spicy Chicken Wings" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title">Spicy Chicken Wings <small style="color:var(--muted);font-weight:400;font-size:0.8rem">6 pcs</small></h3>
+              <p class="menu-description">Spicy sauce, ketchup.</p>
+              <div class="menu-meta">
+                <span class="menu-price">22 DT</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- PLATS -->
+      <!-- 🍝 PÂTES -->
       <div class="menu__group">
-        <h3 class="menu__group-title script">Plats</h3>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Émincé de Poulet</span><span class="menu__dots"></span><span class="menu__price">24</span></div>
-          <p class="menu__desc">Baby potatoes, rocket, cherry tomato, rice, creamy chicken &amp; mushrooms.</p>
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-pasta">Pâtes</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="img/pasta_bolognese.png" alt="Spaghetti Bolognese" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m8-t">Spaghetti Bolognese</h3>
+              <p class="menu-description" data-i18n="m8-p">Classic authentic Spaghetti Bolognese with rich, deep red, meaty ragu sauce and parmesan.</p>
+              <div class="menu-meta">
+                <span class="menu-price">20 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80" alt="Penne Poulet Panné" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m9-t">Penne Poulet Panné</h3>
+              <p class="menu-description" data-i18n="m9-p">Breaded chicken, spinach, pesto, blue cheese.</p>
+              <div class="menu-meta">
+                <span class="menu-price">28 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80" alt="Penne Saumon Sauce Rosé" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m10-t">Penne Saumon Sauce Rosé</h3>
+              <p class="menu-description" data-i18n="m10-p">Fresh salmon, creamy rosé sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price">28 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=800&q=80" alt="Spaghetti Faux Filet, Truffes" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m11-t">Spaghetti Faux Filet, Truffes</h3>
+              <p class="menu-description" data-i18n="m11-p">Sirloin, rich truffle sauce, grana padano.</p>
+              <div class="menu-meta">
+                <span class="menu-price">38 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80" alt="Spaghetti Fruits de Mer" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m12-t">Spaghetti Fruits de Mer</h3>
+              <p class="menu-description" data-i18n="m12-p">Fresh seafood mix, garlic, olive oil, parsley.</p>
+              <div class="menu-meta">
+                <span class="menu-price">39 DT</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Émincé de Bœuf</span><span class="menu__dots"></span><span class="menu__price">28</span></div>
-          <p class="menu__desc">Baby potatoes, rocket, cherry tomato, rice, creamy sirloin &amp; mushrooms.</p>
+      </div>
+
+      <!-- 🥩 PLATS -->
+      <div class="menu__group">
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-plats">Plats</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&q=80" alt="Émincé de Poulet" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m13-t">Émincé de Poulet</h3>
+              <p class="menu-description" data-i18n="m13-p">Baby potatoes, rocket, cherry tomato, rice, creamy chicken &amp; mushrooms.</p>
+              <div class="menu-meta">
+                <span class="menu-price">24 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80" alt="Émincé de Bœuf" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m14-t">Émincé de Bœuf</h3>
+              <p class="menu-description" data-i18n="m14-p">Baby potatoes, rocket, cherry tomato, rice, creamy sirloin &amp; mushrooms.</p>
+              <div class="menu-meta">
+                <span class="menu-price">28 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=800&q=80" alt="Suprême de Poulet Grillé" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m15-t">Suprême de Poulet Grillé</h3>
+              <p class="menu-description" data-i18n="m15-p">Baby potatoes, rocket, cherry tomato, rice, grilled chicken, melted mozzarella.</p>
+              <div class="menu-meta">
+                <span class="menu-price">22 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1562967914-608f82629710?w=800&q=80" alt="Plat Poulet Pané" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m16-t">Plat Poulet Pané</h3>
+              <p class="menu-description" data-i18n="m16-p">Baby potatoes, rocket, cherry tomato, rice, panko chicken, melted mozzarella.</p>
+              <div class="menu-meta">
+                <span class="menu-price">24 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80" alt="Brochette de Bœuf" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m17-t">Brochette de Bœuf</h3>
+              <p class="menu-description" data-i18n="m17-p">Baby potatoes, rocket, cherry tomato, rice, beef skewer, chimichurri.</p>
+              <div class="menu-meta">
+                <span class="menu-price">22 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80" alt="Brochette de Poulet" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m18-t">Brochette de Poulet</h3>
+              <p class="menu-description" data-i18n="m18-p">Baby potatoes, rocket, cherry tomato, rice, peanut chicken skewer, peanut-butter yoghurt sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price">22 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80" alt="Filet de Daurade" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m19-t">Filet de Daurade</h3>
+              <p class="menu-description" data-i18n="m19-p">Sea bream fillet, guacamole, pita chips.</p>
+              <div class="menu-meta">
+                <span class="menu-price">35 DT</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80" alt="Filet de Bœuf" class="menu-image" />
+            </div>
+            <div class="menu-content">
+              <h3 class="menu-title" data-i18n="m20-t">Filet de Bœuf</h3>
+              <p class="menu-description" data-i18n="m20-p">Beef fillet — choose grilled, truffle or pepper sauce.</p>
+              <div class="menu-meta">
+                <span class="menu-price" style="font-size:0.9rem">38/48/42 DT</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Suprême de Poulet Grillé</span><span class="menu__dots"></span><span class="menu__price">22</span></div>
-          <p class="menu__desc">Baby potatoes, rocket, cherry tomato, rice, grilled chicken, melted mozzarella.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Plat Poulet Pané</span><span class="menu__dots"></span><span class="menu__price">24</span></div>
-          <p class="menu__desc">Baby potatoes, rocket, cherry tomato, rice, panko chicken, melted mozzarella.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Brochette de Bœuf</span><span class="menu__dots"></span><span class="menu__price">22</span></div>
-          <p class="menu__desc">Baby potatoes, rocket, cherry tomato, rice, beef skewer, chimichurri.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Brochette de Poulet</span><span class="menu__dots"></span><span class="menu__price">22</span></div>
-          <p class="menu__desc">Baby potatoes, rocket, cherry tomato, rice, peanut chicken skewer, peanut-butter yoghurt sauce.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Filet de Daurade au Guacamole</span><span class="menu__dots"></span><span class="menu__price">35</span></div>
-          <p class="menu__desc">Sea bream fillet, guacamole, pita chips.</p>
-        </div>
-        <div class="menu__item">
-          <div class="menu__item-head"><span class="menu__name">Filet de Bœuf</span><span class="menu__dots"></span><span class="menu__price menu__price--multi">Grillé 38 · Truffes 48 · Poivre 42</span></div>
-          <p class="menu__desc">Beef fillet — choose grilled, truffle or pepper sauce.</p>
+      </div>
+
+      <!-- 🍰 DESSERTS -->
+      <div class="menu__group">
+        <h3 class="menu__group-title script"><span data-i18n="menu-cat-desserts">Desserts</span> <span class="toggle-icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span></h3>
+        <div class="menu-grid">
+          <div class="menu-card" style="grid-column:1/-1;text-align:center;padding:2.5rem 1rem;opacity:.6">
+            <p style="font-style:italic;color:var(--muted)" data-i18n="menu-cat-desserts-p">Tiramisu · Fondant chocolat · Cheesecake · Crème brûlée · Seasonal fruits — full dessert menu coming soon.</p>
+          </div>
         </div>
       </div>
 
@@ -307,9 +522,10 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 
 <!-- ░░░░░░░░░░░░░░ 3 · GUEST VOICES (REVIEWS) ░░░░░░░░░░░░░░ -->
 <section class="reviews section" id="reviews">
-  <div class="section__head">
+  <div class="section__head" style="text-align:center;margin-left:auto;margin-right:auto">
     <p class="kicker reveal" data-i18n="nav-reviews">Guest Voices</p>
-    <h2 class="section__title reveal" data-i18n-html="reviews-title">What our guests<br/>are saying</h2>
+    <div class="accent-line reveal" style="margin: 0 auto 1.4rem;"></div>
+      <h2 class="section__title reveal" data-i18n-html="reviews-title">What our guests<br/>are saying</h2>
     <div class="reviews__meta reveal">
       <span class="reviews__stars-overall">★★★★★</span>
       <span class="reviews__source">Google Reviews</span>
@@ -321,19 +537,19 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 
     <article class="review-card" data-cursor="hover">
       <div class="review-card__top"><span class="review-card__stars">★★★★★</span><span class="review-card__g">G</span></div>
-      <p class="review-card__text">« Endroit lumineux et très propre, brunch généreux et délicieux. Le service est rapide et le personnel adorable. Mon nouveau spot à La Marsa ! »</p>
+      <p class="review-card__text">« Endroit lumineux et très propre, brunch généreux et délicieux. Le service est rapide et le personnel adorable. Mon nouveau spot à Sidi Bou Said ! »</p>
       <div class="review-card__foot">
-        <div class="review-card__author"><div class="review-card__avatar">SM</div><div><span class="review-card__name">Sarra M.</span><span class="review-card__date">il y a 2 mois</span></div></div>
-        <div class="review-card__scores"><span>Cuisine <em>5</em></span><span>Service <em>5</em></span><span>Ambiance <em>5</em></span></div>
+        <div class="review-card__author"><div class="review-card__avatar">SM</div><div><span class="review-card__name">Sarra M.</span><span class="review-card__date" data-i18n="rev1-date">il y a 2 mois</span></div></div>
+        <div class="review-card__scores"><span><span data-i18n="rev-cuisine">Cuisine</span> <em>5</em></span><span><span data-i18n="rev-service">Service</span> <em>5</em></span><span><span data-i18n="rev-ambiance">Ambiance</span> <em>5</em></span></div>
       </div>
     </article>
 
     <article class="review-card" data-cursor="hover">
       <div class="review-card__top"><span class="review-card__stars">★★★★★</span><span class="review-card__g">G</span></div>
-      <p class="review-card__text">« Les bowls sont excellents et copieux, les pâtes aux truffes un délice. Cadre bleu et blanc magnifique, parfait pour déjeuner entre amis. »</p>
+      <p class="review-card__text" data-i18n="rev1-p">« Les bowls sont excellents et copieux, les pâtes aux truffes un délice. Cadre bleu et blanc magnifique, parfait pour déjeuner entre amis. »</p>
       <div class="review-card__foot">
-        <div class="review-card__author"><div class="review-card__avatar">YB</div><div><span class="review-card__name">Yassine Ben Amor</span><span class="review-card__date">Local Guide · il y a 4 mois</span></div></div>
-        <div class="review-card__scores"><span>Cuisine <em>5</em></span><span>Service <em>5</em></span><span>Ambiance <em>5</em></span></div>
+        <div class="review-card__author"><div class="review-card__avatar">YB</div><div><span class="review-card__name">Yassine Ben Amor</span><span class="review-card__date" data-i18n="rev2-date">Local Guide · il y a 4 mois</span></div></div>
+        <div class="review-card__scores"><span><span data-i18n="rev-cuisine">Cuisine</span> <em>5</em></span><span><span data-i18n="rev-service">Service</span> <em>5</em></span><span><span data-i18n="rev-ambiance">Ambiance</span> <em>5</em></span></div>
       </div>
     </article>
 
@@ -341,8 +557,8 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
       <div class="review-card__top"><span class="review-card__stars">★★★★★</span><span class="review-card__g">G</span></div>
       <p class="review-card__text">« Café de qualité, pâtisseries fraîches et une équipe au top. On s'y sent comme à la maison, idéal pour travailler ou bruncher au calme. »</p>
       <div class="review-card__foot">
-        <div class="review-card__author"><div class="review-card__avatar">IK</div><div><span class="review-card__name">Ines Khelifi</span><span class="review-card__date">il y a 3 mois</span></div></div>
-        <div class="review-card__scores"><span>Cuisine <em>5</em></span><span>Service <em>5</em></span><span>Ambiance <em>4</em></span></div>
+        <div class="review-card__author"><div class="review-card__avatar">IK</div><div><span class="review-card__name">Ines Khelifi</span><span class="review-card__date" data-i18n="rev3-date">il y a 3 mois</span></div></div>
+        <div class="review-card__scores"><span><span data-i18n="rev-cuisine">Cuisine</span> <em>5</em></span><span><span data-i18n="rev-service">Service</span> <em>5</em></span><span><span data-i18n="rev-ambiance">Ambiance</span> <em>4</em></span></div>
       </div>
     </article>
 
@@ -350,26 +566,26 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
       <div class="review-card__top"><span class="review-card__stars">★★★★★</span><span class="review-card__g">G</span></div>
       <p class="review-card__text">« Salade burrata pêche incroyable et milkshakes maison à tomber. Terrasse agréable au coucher du soleil. Je recommande vivement. »</p>
       <div class="review-card__foot">
-        <div class="review-card__author"><div class="review-card__avatar">MT</div><div><span class="review-card__name">Mariem Trabelsi</span><span class="review-card__date">Local Guide · il y a 1 an</span></div></div>
-        <div class="review-card__scores"><span>Cuisine <em>5</em></span><span>Service <em>5</em></span><span>Ambiance <em>5</em></span></div>
+        <div class="review-card__author"><div class="review-card__avatar">MT</div><div><span class="review-card__name">Mariem Trabelsi</span><span class="review-card__date" data-i18n="rev4-date">Local Guide · il y a 1 an</span></div></div>
+        <div class="review-card__scores"><span><span data-i18n="rev-cuisine">Cuisine</span> <em>5</em></span><span><span data-i18n="rev-service">Service</span> <em>5</em></span><span><span data-i18n="rev-ambiance">Ambiance</span> <em>5</em></span></div>
       </div>
     </article>
 
     <article class="review-card" data-cursor="hover">
       <div class="review-card__top"><span class="review-card__stars">★★★★★</span><span class="review-card__g">G</span></div>
-      <p class="review-card__text">« Très bon rapport qualité-prix, portions généreuses et plats bien présentés. Le filet de daurade au guacamole était parfait. »</p>
+      <p class="review-card__text" data-i18n="rev4-p">« Très bon rapport qualité-prix, portions généreuses et plats bien présentés. Le filet de daurade au guacamole était parfait. »</p>
       <div class="review-card__foot">
-        <div class="review-card__author"><div class="review-card__avatar">AH</div><div><span class="review-card__name">Amine H.</span><span class="review-card__date">il y a 6 mois</span></div></div>
-        <div class="review-card__scores"><span>Cuisine <em>5</em></span><span>Service <em>4</em></span><span>Ambiance <em>5</em></span></div>
+        <div class="review-card__author"><div class="review-card__avatar">AH</div><div><span class="review-card__name">Amine H.</span><span class="review-card__date" data-i18n="rev5-date">il y a 6 mois</span></div></div>
+        <div class="review-card__scores"><span><span data-i18n="rev-cuisine">Cuisine</span> <em>5</em></span><span><span data-i18n="rev-service">Service</span> <em>4</em></span><span><span data-i18n="rev-ambiance">Ambiance</span> <em>5</em></span></div>
       </div>
     </article>
 
     <article class="review-card" data-cursor="hover">
       <div class="review-card__top"><span class="review-card__stars">★★★★★</span><span class="review-card__g">G</span></div>
-      <p class="review-card__text">« Une belle découverte à La Marsa. Décor frais, lumineux, et une carte variée. Parfait pour un brunch en famille le week-end. »</p>
+      <p class="review-card__text" data-i18n="rev6-p">« Une belle découverte à Sidi Bou Said. Décor frais, lumineux, et une carte variée. Parfait pour un brunch en famille le week-end. »</p>
       <div class="review-card__foot">
-        <div class="review-card__author"><div class="review-card__avatar">LB</div><div><span class="review-card__name">Leïla Bouaziz</span><span class="review-card__date">Local Guide · il y a 8 mois</span></div></div>
-        <div class="review-card__scores"><span>Cuisine <em>5</em></span><span>Service <em>5</em></span><span>Ambiance <em>5</em></span></div>
+        <div class="review-card__author"><div class="review-card__avatar">LB</div><div><span class="review-card__name">Leïla Bouaziz</span><span class="review-card__date" data-i18n="rev6-date">Local Guide · il y a 8 mois</span></div></div>
+        <div class="review-card__scores"><span><span data-i18n="rev-cuisine">Cuisine</span> <em>5</em></span><span><span data-i18n="rev-service">Service</span> <em>5</em></span><span><span data-i18n="rev-ambiance">Ambiance</span> <em>5</em></span></div>
       </div>
     </article>
 
@@ -377,34 +593,65 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
   </div>
 </section>
 
-<!-- ░░░░░░░░░░░░░░ THE FEED (GALLERY) ░░░░░░░░░░░░░░ -->
-<section class="gallery section">
+<!-- ░░░░░░░░░░░░░░ THE FEED (EXPERIENCE GALLERY) ░░░░░░░░░░░░░░ -->
+<section class="gallery-section section" id="gallery">
   <div class="section__head">
-    <p class="kicker reveal" data-i18n="feed-kicker">The Feed</p>
-    <h2 class="section__title reveal">@white.tn</h2>
+    <p class="kicker reveal">The Experience</p>
+    <div class="accent-line reveal"></div>
+    <h2 class="section__title reveal">Experience WHITE</h2>
   </div>
-  <div class="gallery__grid">
-    <a class="gallery__item gallery__item--wide reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/brunch-eggs.jpg" alt="WHITE eggs benedict on waffles" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/breakfast.jpg" alt="WHITE breakfast spread" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/cocktails.jpg" alt="WHITE fresh mojitos" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/burgers.jpg" alt="WHITE gourmet burgers" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/milkshake.jpg" alt="WHITE chocolate milkshake" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/frenchtoast.jpg" alt="WHITE French toast with berries" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/burrata.jpg" alt="WHITE burrata, tomato and basil" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/chocolate.jpg" alt="WHITE chocolate dessert" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/foodphoto.jpg" alt="WHITE table spread" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/milkshake.jpg" alt="WHITE homemade milkshake" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/hero.png" alt="WHITE terrace at dusk" loading="lazy" decoding="async" /></a>
-    <a class="gallery__item reveal" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover"><img src="img/brunch-eggs.jpg" alt="WHITE brunch flatlay" loading="lazy" decoding="async" /></a>
+  
+  <div class="gallery-grid reveal">
+    <!-- Location -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="WHITE café overlooking Sidi Bou Said" loading="lazy" />
+      <div class="gallery-caption">Overlooking the Mediterranean</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80" alt="WHITE café exterior" loading="lazy" />
+      <div class="gallery-caption">A bright blue and white welcome</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?w=800&q=80" alt="Sidi Bou Said beach sunset" loading="lazy" />
+      <div class="gallery-caption">Sunset steps from the shore</div>
+    </div>
+    
+    <!-- Ambiance -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80" alt="Morning coffee scene" loading="lazy" />
+      <div class="gallery-caption">Quiet mornings in the sun</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=800&q=80" alt="Cozy café interior" loading="lazy" />
+      <div class="gallery-caption">Warm, inviting corners</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80" alt="Generous brunch spread" loading="lazy" />
+      <div class="gallery-caption">Tables filled with joy</div>
+    </div>
+
+    <!-- Lifestyle -->
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=800&q=80" alt="Friends gathering at brunch" loading="lazy" />
+      <div class="gallery-caption">Moments shared together</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&q=80" alt="Working from the café" loading="lazy" />
+      <div class="gallery-caption">Your home office in Sidi Bou Said</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Sunset dining moment" loading="lazy" />
+      <div class="gallery-caption">Toasting to golden hour</div>
+    </div>
   </div>
-  <a class="gallery__follow btn btn--ghost" href="https://www.instagram.com/" target="_blank" rel="noopener" data-cursor="hover" data-i18n="feed-follow">Follow @white.tn</a>
 </section>
 
 <!-- ░░░░░░░░░░░░░░ 4 · EVENTS ░░░░░░░░░░░░░░ -->
 <section class="events section" id="events">
   <div class="section__head">
     <p class="kicker reveal" data-i18n="events-kicker">Events at WHITE</p>
-    <h2 class="section__title reveal" data-i18n-html="events-title">Pick your<br/>experience</h2>
+    <div class="accent-line reveal"></div>
+      <h2 class="section__title reveal" data-i18n-html="events-title">Pick your<br/>experience</h2>
     <p class="section__intro reveal" data-i18n="events-intro">From weekend brunches to golden-hour sessions — every gathering at WHITE is a table worth booking.</p>
   </div>
 
@@ -440,19 +687,19 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
         <p class="leadform__status" aria-live="polite"></p>
       </form>
     </div>
-    <div class="events__private-media" data-parallax>
-      <img src="img/foodphoto.jpg" alt="WHITE table spread — gatherings at WHITE" loading="lazy" decoding="async" />
+    <div class="events__private-media">
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="WHITE table spread — gatherings at WHITE" loading="lazy" decoding="async" class="reveal-zoom" />
     </div>
   </div>
 </section>
 
 <!-- ░░░░░░░░░░░░░░ ATMOSPHERE ░░░░░░░░░░░░░░ -->
 <section class="atmos">
-  <div class="atmos__media" data-parallax>
-    <img src="img/hero.png" alt="WHITE coffee house at dusk — warm terrace lights" loading="lazy" decoding="async" />
+  <div class="atmos__media">
+    <img src="img/hero.png" alt="WHITE coffee house at dusk — warm terrace lights" loading="lazy" decoding="async" class="reveal-zoom" />
   </div>
   <div class="atmos__panel">
-    <h2 class="atmos__title reveal" data-i18n-html="atmos-title">Blue &amp; white,<br/>sunlit rooms,<br/>sea air.</h2>
+    <h2 class="atmos__title reveal" data-i18n-html="atmos-title">Blue &amp; white,<br/>sunlit rooms,<br/>coastal air.</h2>
     <p class="reveal" data-i18n="atmos-body">
       Everything at WHITE answers to the Mediterranean — the clean blue and white,
       the bright open rooms, the jasmine and salt in the evening air. A place made
@@ -469,7 +716,7 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
 <!-- ░░░░░░░░░░░░░░ CLOSING CTA ░░░░░░░░░░░░░░ -->
 <section class="closing">
   <div class="closing__inner">
-    <p class="kicker reveal" data-i18n="closing-kicker">La Marsa · Tunis, Tunisia</p>
+    <p class="kicker reveal" data-i18n="closing-kicker">Sidi Bou Said · Tunis, Tunisia</p>
     <h2 class="closing__title reveal" data-i18n-html="closing-title">Your table is <em>waiting</em>.</h2>
   </div>
 </section>
@@ -479,12 +726,12 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
   <div class="footer__inner">
     <div class="footer__brand">
       <div class="footer__mark">White</div>
-      <p>A bright Mediterranean coffee house &amp; restaurant in La Marsa, Tunis.</p>
+      <p>A bright Mediterranean coffee house &amp; restaurant in Sidi Bou Said, Tunis.</p>
     </div>
     <div class="footer__col">
       <h5 data-i18n="footer-visit">Visit</h5>
-      <p>La Marsa<br/>Tunis Governorate, Tunisia</p>
-      <p>Open daily · 08:00 — late</p>
+      <p>Av. 14 Janvier<br/>Sidi Bou Said, Tunis</p>
+      <p data-i18n="footer-hours">8 AM – 1 AM everyday</p>
     </div>
     <div class="footer__col">
       <h5 data-i18n="footer-explore">Explore</h5>
@@ -501,8 +748,7 @@ img{image-rendering:-webkit-optimize-contrast;image-rendering:crisp-edges}
     </div>
   </div>
   <div class="footer__base">
-    <span>© <span id="year"></span> WHITE · La Marsa, Tunis</span>
-    <span class="footer__credit">Created by <a href="mailto:jawhersa999@gmail.com">JWHR</a></span>
+    <span>© <span id="year"></span> WHITE · Av. 14 Janvier, Sidi Bou Said</span>
   </div>
 </footer>
 
