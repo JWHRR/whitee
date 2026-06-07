@@ -699,9 +699,10 @@ em{font-style:italic}
 @media (max-width:768px){
   .hero { height: 100svh; min-height: 600px; }
   .hero__content { padding-bottom: 6.5rem; }
-  .hero__media img { object-position: center center; }
+  .hero__media img { object-position: center top; }
   .nav__links{display:none}
   .nav__burger{display:flex}
+  .nav{background:rgba(255,255,255,.9);backdrop-filter:blur(20px) saturate(140%);box-shadow:0 1px 0 var(--line-soft),0 10px 30px rgba(29,58,143,.06)}
   .menu__groups{columns:1}
   .atmos,.events__private,.discover__map{grid-template-columns:1fr}
   .events__private-media{min-height:300px}
