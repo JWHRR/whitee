@@ -697,7 +697,8 @@ em{font-style:italic}
   .events__grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:768px){
-  .hero { height: 75svh; min-height: 540px; }
+  .hero { height: 100svh; min-height: 600px; }
+  .hero__content { padding-bottom: 6.5rem; }
   .hero__media img { object-position: center center; }
   .nav__links{display:none}
   .nav__burger{display:flex}
