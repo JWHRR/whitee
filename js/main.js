@@ -319,9 +319,10 @@
      ================================================================ */
   const burger = $("#burger");
   const mobilemenu = $("#mobilemenu");
-  burger.addEventListener("click", () => mobilemenu.classList.toggle("is-open"));
+  const syncBurger = () => burger.classList.toggle("is-active", mobilemenu.classList.contains("is-open"));
+  burger.addEventListener("click", () => { mobilemenu.classList.toggle("is-open"); syncBurger(); });
   $$(".mobilemenu__links a").forEach(a =>
-    a.addEventListener("click", () => mobilemenu.classList.remove("is-open"))
+    a.addEventListener("click", () => { mobilemenu.classList.remove("is-open"); syncBurger(); })
   );
 
   /* ================================================================
