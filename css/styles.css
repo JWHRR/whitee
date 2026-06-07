@@ -151,7 +151,7 @@ em{font-style:italic}
 /* ===================================================================
    NAV
    =================================================================== */
-.nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(255,255,255,.5);backdrop-filter:blur(12px);transition:all .5s var(--ease)}
+.nav{position:fixed;top:38px;left:0;right:0;z-index:900;background:rgba(255,255,255,.5);backdrop-filter:blur(12px);transition:all .5s var(--ease)}
 .nav__inner{max-width:var(--maxw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:1rem var(--gut);transition:padding .5s var(--ease)}
 .nav.is-scrolled{background:rgba(255,255,255,.82);backdrop-filter:blur(20px) saturate(140%);box-shadow:0 1px 0 var(--line-soft),0 10px 30px rgba(29,58,143,.06)}
 .nav.is-scrolled .nav__inner{padding-top:.9rem;padding-bottom:.9rem}
