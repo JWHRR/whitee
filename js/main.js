@@ -527,6 +527,23 @@
   }
 
   /* ================================================================
+     EXPERIENCE GALLERY — repeat the photos into extra rows (desktop)
+     and a seamless sliding strip (mobile). Keep exactly 3 identical
+     copies so the mobile marquee loops at -33.333%.
+     ================================================================ */
+  const galleryTrack = $(".gallery-track");
+  if (galleryTrack) {
+    const originals = $$(".gallery-item", galleryTrack);
+    for (let pass = 0; pass < 2; pass++) {
+      originals.forEach(item => {
+        const clone = item.cloneNode(true);
+        clone.setAttribute("aria-hidden", "true");
+        galleryTrack.appendChild(clone);
+      });
+    }
+  }
+
+  /* ================================================================
      WHATSAPP INLINE FORM
      ================================================================ */
   const waForm = (form, buildMsg) => {

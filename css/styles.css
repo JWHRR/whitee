@@ -308,8 +308,10 @@ em{font-style:italic}
    =================================================================== */
 .menu{background:transparent}
 .menu__cta{text-align:center;margin-top:clamp(2.5rem,5vw,3.5rem)}
+.menu__groups{display:flex;flex-direction:column}
 .menu__group{margin-bottom:0;border-bottom:1px solid var(--line)}
-.menu__group:first-child{border-top:1px solid var(--line)}
+.menu__group:first-child{border-top:0}
+.menu__group--lead{order:-1;border-top:1px solid var(--line)}
 .menu__group-title{font-family:var(--script);font-size:2.2rem;color:var(--blue);margin-bottom:0;display:flex;align-items:center;gap:.8rem;padding:1.4rem 0;cursor:pointer;user-select:none;transition:color .3s}
 .menu__group-title:hover{color:var(--gold)}
 .menu__group-title::after{content:"";flex:1;height:1px;background:var(--line)}
@@ -317,8 +319,8 @@ em{font-style:italic}
 .menu__group-title .toggle-icon svg{width:14px;height:14px;stroke:var(--blue);stroke-width:2;fill:none;transition:stroke .3s}
 .menu__group.is-open .toggle-icon{transform:rotate(180deg);background:var(--blue)}
 .menu__group.is-open .toggle-icon svg{stroke:#fff}
-.menu__group .menu-grid{max-height:0;overflow:hidden;transition:max-height .5s var(--ease),opacity .4s ease,padding .4s ease;opacity:0;padding:0 0}
-.menu__group.is-open .menu-grid{max-height:3000px;opacity:1;padding:1.2rem 0 2rem}
+.menu__group .menu-grid,.menu__group .menu__body{max-height:0;overflow:hidden;transition:max-height .6s var(--ease),opacity .4s ease,padding .4s ease;opacity:0;padding:0 0}
+.menu__group.is-open .menu-grid,.menu__group.is-open .menu__body{max-height:14000px;opacity:1;padding:1.2rem 0 2.6rem}
 
 .menu-grid {
   display: grid;
@@ -414,6 +416,47 @@ em{font-style:italic}
 .menu__price--multi::after{content:""}
 .menu__desc{font-size:.92rem;color:var(--muted);margin-top:.25rem;max-width:54ch}
 .menu__note{font-size:.8rem;color:var(--muted);text-align:center;margin-top:2.5rem;letter-spacing:.04em}
+
+/* ── Editorial menu list (full carte) ── */
+.menu__body{position:relative}
+.menu-sub{margin-bottom:2.6rem}
+.menu-sub:last-child{margin-bottom:0}
+.menu-sub__head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.4rem}
+.menu-sub__title{font-family:var(--serif);font-size:1.5rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);white-space:nowrap;display:flex;align-items:baseline;gap:.6rem}
+.menu-sub__title::before{content:"";width:18px;height:2px;background:var(--gold-grad);border-radius:2px;align-self:center}
+.menu-sub__hint{font-family:var(--serif);font-size:1rem;font-style:italic;letter-spacing:0;text-transform:none;color:var(--muted);font-weight:400}
+.menu-sub__line{flex:1;height:1px;background:var(--line)}
+
+.menu-list{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:.2rem 3.5rem}
+.menu-list--single{grid-template-columns:1fr}
+@media(max-width:760px){.menu-list{grid-template-columns:1fr}}
+
+.mitem{padding:1rem 0;border-bottom:1px dashed var(--line-soft)}
+.mitem__main{display:flex;align-items:baseline;gap:.4rem}
+.mitem__name{font-family:var(--serif);font-size:1.22rem;font-weight:600;color:var(--ink);transition:color .25s}
+.mitem:hover .mitem__name{color:var(--blue)}
+.mitem__dots{flex:1;border-bottom:1.5px dotted var(--line);transform:translateY(-3px);min-width:14px}
+.mitem__price{font-family:var(--serif);font-weight:700;font-size:1.18rem;color:var(--blue);white-space:nowrap}
+.mitem__price i{font-style:normal;font-size:.62em;font-weight:500;color:var(--muted);margin-left:2px;letter-spacing:.04em}
+.mitem__desc{font-size:.9rem;color:var(--ink-2);line-height:1.5;margin-top:.4rem;max-width:52ch}
+.mitem__supp{display:inline-block;font-size:.82rem;font-style:italic;color:var(--gold-deep);margin-top:.45rem}
+.mitem__supp b{font-style:normal;font-weight:600}
+
+/* supplements / extras block */
+.menu-supp{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+@media(max-width:760px){.menu-supp{grid-template-columns:1fr}}
+.menu-supp__col{background:var(--bg-2);border:1px solid var(--line-soft);border-radius:14px;padding:1.3rem 1.4rem}
+.menu-supp__label{display:block;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--blue);margin-bottom:.9rem}
+.menu-supp__col ul{list-style:none}
+.menu-supp__col li{display:flex;align-items:baseline;justify-content:space-between;gap:.6rem;padding:.4rem 0;font-size:.95rem;color:var(--ink);border-bottom:1px dashed var(--line-soft)}
+.menu-supp__col li:last-child{border-bottom:0}
+.menu-supp__col li b{font-family:var(--serif);font-weight:700;color:var(--blue)}
+.menu-supp__col li b i{font-style:normal;font-size:.7em;color:var(--muted);font-weight:500;margin-left:2px}
+
+/* parfums / inline chips */
+.menu-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.4rem}
+.menu-chips span{font-size:.78rem;letter-spacing:.02em;padding:.34rem .8rem;border-radius:50px;background:var(--bg-2);border:1px solid var(--line-soft);color:var(--ink-2)}
+.menu-note-inline{font-size:.85rem;font-style:italic;color:var(--muted);margin:-.4rem 0 1rem}
 
 /* ===================================================================
    DISCOVER / NEIGHBOURHOOD HUB
@@ -544,12 +587,14 @@ em{font-style:italic}
   text-align: center;
 }
 .gallery-grid {
+  margin-top: 3rem;
+}
+/* LAPTOP / DESKTOP — centered grid, tiles capped at the image's native 206px */
+.gallery-track {
   display: grid;
-  /* tiles never grow past the image's native 206px → no upscaling, stays crisp */
   grid-template-columns: repeat(auto-fit, minmax(150px, 206px));
   justify-content: center;
   gap: 16px;
-  margin-top: 3rem;
 }
 .gallery-item {
   position: relative;
@@ -805,14 +850,53 @@ em{font-style:italic}
   .hero__lede{font-size:1.05rem}
   .hero__content{padding-bottom:clamp(4rem,16vh,7rem)}
   .marquee__group{font-size:1.4rem;gap:1.4rem}
-  .menu__group-title{font-size:1.7rem}
+  .menu__group-title{font-size:1.7rem;gap:.6rem}
   .menu-content{padding:1.2rem}
   .menu-image-wrapper{height:200px}
+  /* PHONE — editorial menu list */
+  .menu-sub{margin-bottom:2rem}
+  .menu-sub__title{font-size:1.18rem;letter-spacing:.1em;white-space:normal;flex-wrap:wrap;gap:.4rem}
+  .menu-sub__hint{font-size:.85rem}
+  .menu-sub__head{gap:.7rem;margin-bottom:1rem}
+  .menu-list{gap:0}
+  .mitem{padding:.85rem 0}
+  .mitem__name{font-size:1.1rem}
+  .mitem__price{font-size:1.08rem}
+  .mitem__desc{font-size:.86rem;max-width:none}
+  .menu-supp__col{padding:1.1rem 1.2rem}
   .section__title{font-size:clamp(2.1rem,8vw,3rem)}
   .reviews__track .review-card{width:78vw}
-  .gallery-grid{gap:10px}
   .footer__base{justify-content:center;text-align:center}
+
+  /* PHONE — the gallery becomes one gently sliding strip instead of a tall
+     list, so it never forces a long vertical scroll */
+  .gallery-grid{
+    overflow:hidden;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+            mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
+  }
+  .gallery-track{
+    display:flex;
+    flex-wrap:nowrap;
+    width:max-content;
+    justify-content:flex-start;
+    animation:galleryScroll 40s linear infinite;
+  }
+  .gallery-track:active{animation-play-state:paused}
+  /* margin (not gap) so every tile carries equal spacing → one-third shift
+     lands exactly on a tile boundary and the loop is seamless */
+  .gallery-item{flex:0 0 46vw;max-width:210px;margin-right:12px}
+  /* show captions on phones (no hover) */
+  .gallery-caption{opacity:1;background:linear-gradient(to top,rgba(0,0,0,.72),transparent);font-size:.92rem;padding:18px 12px 12px}
 }
 @media (max-width:480px){
   .footer__inner{grid-template-columns:1fr;gap:1.6rem}
+}
+
+/* gallery strip animation — the track holds 3 identical copies (cloned in JS),
+   so sliding by one third loops seamlessly */
+@keyframes galleryScroll{from{transform:translateX(0)}to{transform:translateX(-33.333%)}}
+@media (prefers-reduced-motion:reduce){
+  .gallery-track{animation:none!important}
+  .gallery-grid{overflow-x:auto;-webkit-overflow-scrolling:touch}
 }
